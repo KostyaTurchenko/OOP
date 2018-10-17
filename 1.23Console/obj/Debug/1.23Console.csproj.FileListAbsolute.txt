@@ -1,0 +1,8 @@
+D:\Programing\ProgramingHW\1.23Console\bin\Debug\1.23Console.exe
+D:\Programing\ProgramingHW\1.23Console\bin\Debug\1.23Console.pdb
+D:\Programing\ProgramingHW\1.23Console\bin\Debug\BL.dll
+D:\Programing\ProgramingHW\1.23Console\bin\Debug\BL.pdb
+D:\Programing\ProgramingHW\1.23Console\obj\Debug\1.23Console.csprojResolveAssemblyReference.cache
+D:\Programing\ProgramingHW\1.23Console\obj\Debug\1.23Console.csproj.CoreCompileInputs.cache
+D:\Programing\ProgramingHW\1.23Console\obj\Debug\1.23Console.exe
+D:\Programing\ProgramingHW\1.23Console\obj\Debug\1.23Console.pdb

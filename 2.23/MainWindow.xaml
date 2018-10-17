@@ -1,0 +1,23 @@
+﻿<Window x:Class="_2._23.StudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2._23"
+        mc:Ignorable="d"
+        Title="StudWindow" Height="350" Width="525" Topmost="True">
+    <Grid>
+        <TextBox Name ="SurnameTextBox" HorizontalAlignment="Left" Height="23" Margin="80.776,33.111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name ="CourseTextBox" HorizontalAlignment="Left" Height="23" Margin="80.776,69.953,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name ="MidPointTextBox" HorizontalAlignment="Left" Height="23" Margin="80.776,108.734,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Surname" HorizontalAlignment="Left" Margin="19.268,29.111,0,0" VerticalAlignment="Top"/>
+        <Label Content="Course" HorizontalAlignment="Left" Margin="19.268,65.953,0,0" VerticalAlignment="Top"/>
+        <Label Content="MidPoint" HorizontalAlignment="Left" Margin="18.268,104.734,0,0" VerticalAlignment="Top"/>
+        <CheckBox Name ="KnownEng" Content="KnownEng" HorizontalAlignment="Left" Margin="96.288,136.734,0,0" VerticalAlignment="Top"/>
+        <Label Name ="ShowingLabel" Content="" HorizontalAlignment="Left" Margin="222.869,168.484,0,0" VerticalAlignment="Top" Height="140.516" Width="284.131"/>
+        <Button Name ="ShowButton" Content="ShowInformation" HorizontalAlignment="Left" Margin="80.776,168.484,0,0" VerticalAlignment="Top" Width="120" Height="32.964" Click="ShowButton_Click"/>
+        <RadioButton Name ="BaseStudentRBut" Content="Base Student" HorizontalAlignment="Left" Margin="222.869,65.953,0,0" VerticalAlignment="Top" GroupName="StudentType" IsChecked="True"/>
+        <RadioButton Name ="DerivedStudentRBut" Content="Derived Student" HorizontalAlignment="Left" Margin="222.869,92.784,0,0" VerticalAlignment="Top" GroupName="StudentType"/>
+
+    </Grid>
+</Window>

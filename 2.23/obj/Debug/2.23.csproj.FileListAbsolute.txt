@@ -1,0 +1,16 @@
+D:\Programing\ProgramingHW\2.23\bin\Debug\2.23.exe
+D:\Programing\ProgramingHW\2.23\bin\Debug\2.23.pdb
+D:\Programing\ProgramingHW\2.23\bin\Debug\BL.dll
+D:\Programing\ProgramingHW\2.23\bin\Debug\BL.pdb
+D:\Programing\ProgramingHW\2.23\obj\Debug\2.23.csprojResolveAssemblyReference.cache
+D:\Programing\ProgramingHW\2.23\obj\Debug\MainWindow.g.cs
+D:\Programing\ProgramingHW\2.23\obj\Debug\App.g.cs
+D:\Programing\ProgramingHW\2.23\obj\Debug\2.23_MarkupCompile.cache
+D:\Programing\ProgramingHW\2.23\obj\Debug\2.23_MarkupCompile.lref
+D:\Programing\ProgramingHW\2.23\obj\Debug\MainWindow.baml
+D:\Programing\ProgramingHW\2.23\obj\Debug\2.23.g.resources
+D:\Programing\ProgramingHW\2.23\obj\Debug\_2._23.Properties.Resources.resources
+D:\Programing\ProgramingHW\2.23\obj\Debug\2.23.csproj.GenerateResource.Cache
+D:\Programing\ProgramingHW\2.23\obj\Debug\2.23.csproj.CoreCompileInputs.cache
+D:\Programing\ProgramingHW\2.23\obj\Debug\2.23.exe
+D:\Programing\ProgramingHW\2.23\obj\Debug\2.23.pdb
