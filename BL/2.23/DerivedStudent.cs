@@ -7,20 +7,24 @@ namespace BL._2._23
 {
     public class DerivedStudent : Student
     {
-        public bool LearnigEn { get; set; }
+        public bool LearningEnglish { get; set; }
 
-        public DerivedStudent(string Surname, int MidPoint, int Course) 
+        public DerivedStudent(string Surname, int MidPoint, int Course, bool learningEnglish) 
             : base(Surname, MidPoint, Course)
         {
-
+            LearningEnglish = learningEnglish;
         }
 
         public override double GetQuallity()
         {
-            if (LearnigEn)
+            if (LearningEnglish)
+            {
                 return 2 * base.GetQuallity();
+            }
             else
+            {
                 return 0.9 * base.GetQuallity();
+            }
         }
 
         public override string GetInformation()

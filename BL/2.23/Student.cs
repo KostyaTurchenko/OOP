@@ -11,11 +11,11 @@ namespace BL._2._23
         public int MidPoint { get; set; }
         public int Course { get; set; }
 
-        public Student(string Surname, int MidPoint, int Course)
+        public Student(string surname, int midPoint, int course)
         {
-            this.Surname = Surname;
-            this.MidPoint = MidPoint;
-            this.Course = Course;
+            Surname = surname;
+            MidPoint = midPoint;
+            Course = course;
         }
 
         virtual public double GetQuallity()
@@ -23,7 +23,7 @@ namespace BL._2._23
             return 0.2 * MidPoint * Course;
         }
 
-        virtual public string GetInformation()
+        public virtual string GetInformation()
         {
             return String.Format("{0}  Course: {1}  MidPoint: {2}  Quallity: {3} (BaseStudent)", Surname, Course, MidPoint, GetQuallity());
         }

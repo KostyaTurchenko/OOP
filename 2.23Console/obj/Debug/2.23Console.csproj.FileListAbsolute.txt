@@ -6,3 +6,11 @@ D:\Programing\ProgramingHW\2.23Console\obj\Debug\2.23Console.csprojResolveAssemb
 D:\Programing\ProgramingHW\2.23Console\obj\Debug\2.23Console.csproj.CoreCompileInputs.cache
 D:\Programing\ProgramingHW\2.23Console\obj\Debug\2.23Console.exe
 D:\Programing\ProgramingHW\2.23Console\obj\Debug\2.23Console.pdb
+D:\Programing\ProjectGit\OOP\2.23Console\bin\Debug\2.23Console.exe
+D:\Programing\ProjectGit\OOP\2.23Console\bin\Debug\2.23Console.pdb
+D:\Programing\ProjectGit\OOP\2.23Console\bin\Debug\BL.dll
+D:\Programing\ProjectGit\OOP\2.23Console\bin\Debug\BL.pdb
+D:\Programing\ProjectGit\OOP\2.23Console\obj\Debug\2.23Console.csprojResolveAssemblyReference.cache
+D:\Programing\ProjectGit\OOP\2.23Console\obj\Debug\2.23Console.csproj.CoreCompileInputs.cache
+D:\Programing\ProjectGit\OOP\2.23Console\obj\Debug\2.23Console.exe
+D:\Programing\ProjectGit\OOP\2.23Console\obj\Debug\2.23Console.pdb

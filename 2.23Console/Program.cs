@@ -8,19 +8,14 @@ namespace _2._23Console
 {
     class Program
     {
-        static int IntParser ()
+        static int IntParser (string message)
         {
+            Console.WriteLine(message);
             int result;
-            bool check = false;
-
-            do
+            while (!int.TryParse(Console.ReadLine(), out result))
             {
-                check = Int32.TryParse(Console.ReadLine(), out result);
-                if (!check)
-                    Console.WriteLine("invalid value entered try again");
+                Console.WriteLine("invalid value entered try again");
             }
-            while (!check);
-
             return result;
         }
         static void Main(string[] args)
@@ -30,36 +25,36 @@ namespace _2._23Console
                 Console.WriteLine("Surname:");
                 string surname = Console.ReadLine();
 
-                Console.WriteLine("Course:");
-                int course = IntParser();
+                int course = IntParser("Course:");
 
-                Console.WriteLine("MidPoint:");
-                int midpoint = IntParser();
+                int midpoint = IntParser("MidPoint:");
 
-                Console.WriteLine("1-BaseStudent; 2-DerivedStudent;");
-                int ClassChoice = IntParser();
-                if (ClassChoice == 2)
-                {
-                    DerivedStudent MyDerivedStudent = new DerivedStudent(surname, midpoint, course);
-                    int ActionEng;
+                int classChoice = IntParser("1-BaseStudent; 2-DerivedStudent;");
+                if (classChoice == 2)
+                {                   
+                    int actionEnglish;
+                    Student MyDerivedStudent = null;
+
                     do
                     {
-                        Console.WriteLine("1-known eng; 2 - no");
-
-                        ActionEng = IntParser();
-                        if (ActionEng == 1)
-                            MyDerivedStudent.LearnigEn = true;
-                        if(ActionEng == 2)
-                            MyDerivedStudent.LearnigEn = false;
+                        actionEnglish = IntParser("1-known english; 2 - no");
+                        if (actionEnglish == 1)
+                        {
+                            MyDerivedStudent = new DerivedStudent(surname, midpoint, course, true);
+                        }                            
+                        if(actionEnglish == 2)
+                        {
+                            MyDerivedStudent = new DerivedStudent(surname, midpoint, course, false);
+                        }                           
                     }
-                    while (ActionEng != 1 && ActionEng != 2);
+                    while (actionEnglish != 1 && actionEnglish != 2);
                     
                     Console.WriteLine(MyDerivedStudent.GetInformation()); 
                 }
                 else 
                 {
-                    Student MyBaseStudent = new Student(surname, midpoint, course);
-                    Console.WriteLine(MyBaseStudent.GetInformation());
+                    Student myBaseStudent = new Student(surname, midpoint, course);
+                    Console.WriteLine(myBaseStudent.GetInformation());
                 }                    
             }
         }
