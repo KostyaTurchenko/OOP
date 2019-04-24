@@ -1,0 +1,16 @@
+D:\Programing\ProjectGit\OOP\3.23\bin\Debug\3.23.exe
+D:\Programing\ProjectGit\OOP\3.23\bin\Debug\3.23.pdb
+D:\Programing\ProjectGit\OOP\3.23\bin\Debug\BL.dll
+D:\Programing\ProjectGit\OOP\3.23\bin\Debug\BL.pdb
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\3.23.csprojResolveAssemblyReference.cache
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\MainWindow.g.cs
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\App.g.cs
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\3.23_MarkupCompile.cache
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\3.23_MarkupCompile.lref
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\MainWindow.baml
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\3.23.g.resources
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\_3._23.Properties.Resources.resources
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\3.23.csproj.GenerateResource.Cache
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\3.23.csproj.CoreCompileInputs.cache
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\3.23.exe
+D:\Programing\ProjectGit\OOP\3.23\obj\Debug\3.23.pdb

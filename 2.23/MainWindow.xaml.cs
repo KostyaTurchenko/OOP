@@ -22,7 +22,7 @@ namespace _2._23
     {
         public StudentWindow()
         {
-            InitializeComponent();            
+            InitializeComponent();
         }
 
         private void ShowButton_Click(object sender, RoutedEventArgs e)
@@ -43,7 +43,7 @@ namespace _2._23
 
             if (DerivedStudentRBut.IsChecked == true)
             {
-                Student myStudent = new DerivedStudent(surname, midPoint, course, (bool)KnownEng.IsChecked);                               
+                Student myStudent = new DerivedStudent(surname, midPoint, course, (bool)KnownEng.IsChecked);
                 ShowingLabel.Content = myStudent.GetInformation();
             }
             else

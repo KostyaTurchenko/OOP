@@ -43,7 +43,10 @@
     <Compile Include="1.23\GoodCar.cs" />
     <Compile Include="2.23\DerivedStudent.cs" />
     <Compile Include="2.23\Student.cs" />
-    <Compile Include="3.23\СonstructionEquipment.cs" />
+    <Compile Include="3.23\Excavator.cs" />
+    <Compile Include="3.23\HeavyMachine.cs" />
+    <Compile Include="3.23\WorkWithConstructionEquipment.cs" />
+    <Compile Include="3.23\IСonstructionEquipment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1.23\VIPCar.cs" />
   </ItemGroup>
